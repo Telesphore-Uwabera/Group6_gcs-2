@@ -1,0 +1,6 @@
+#!/bin/bash
+read -p "Write any phrase you want !" phrase
+word=$(echo -n "$phrase" | wc -w)
+space=$(expr length "$phrase" - length `echo "$phrase" | sed "s/ //g"`)
+echo "The number of words is $word"
+echo "The number of white spaces is $space"
