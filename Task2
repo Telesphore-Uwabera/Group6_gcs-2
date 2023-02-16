@@ -1,0 +1,12 @@
+a=$RANDOM
+b=$RANDOM
+square_roota=$(echo "$RANDOM" | awk '{print sqrt($1)}')
+square_rootb=$(echo "$RANDOM" | awk '{print sqrt($1)}')
+total=`echo $square_roota + $square_rootb | bc`
+echo "The first random number generated is $a"
+echo "The square root is $square_roota"
+echo "The second random number generated is $b"
+echo "The square root is $square_rootb"
+echo "The sum of their square roots is $total"
+
+
