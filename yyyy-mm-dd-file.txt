@@ -1,0 +1,5 @@
+#!/bin/bash
+### mm/dd/yyyy ###
+date +'%y-%m-%d'
+echo -e "one\ntwo\nthree\nfour\nfive\n"
+
