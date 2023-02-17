@@ -1,0 +1,8 @@
+#shell program to multiply two numbers 
+
+num1=$RANDOM
+num2=$RANDOM
+
+ans=$((num1 * num2))
+
+echo "The product of $num1 and $num2 is $ans"
