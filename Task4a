@@ -1,0 +1,4 @@
+read -p "Enter the first number" a
+read -p "Enter the second number" b
+ans=$((a * b))
+echo "The product of $a and $b is $ans"
