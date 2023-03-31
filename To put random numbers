@@ -8,5 +8,3 @@ echo "The square root is $square_roota"
 echo "The second random number generated is $b"
 echo "The square root is $square_rootb"
 echo "The sum of their square roots is $total"
-
-
